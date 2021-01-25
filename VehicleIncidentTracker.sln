@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleIncidentTracker.Core", "src\VehicleIncidentTracker.Core\VehicleIncidentTracker.Core.csproj", "{AF3DD527-2547-46C3-8B84-395D56630496}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleIncidentTracker.Infrastructure", "src\VehicleIncidentTracker.Infrastructure\VehicleIncidentTracker.Infrastructure.csproj", "{A42D46A3-3C21-4A7C-BF7B-188A874EFD24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleIncidentTracker.UnitTests", "tests\VehicleIncidentTracker.UnitTests\VehicleIncidentTracker.UnitTests.csproj", "{FBA6F554-5680-4CE6-BFAF-27C8DCD2B78E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleIncidentTracker.IntegrationTests", "tests\VehicleIncidentTracker.IntegrationTests\VehicleIncidentTracker.IntegrationTests.csproj", "{BDD43991-E252-4054-952E-241952E0F503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleIncidentTracker.Web", "src\VehicleIncidentTracker.Web\VehicleIncidentTracker.Web.csproj", "{2B13BDAD-F101-43B7-8484-EA7F36706E00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF3DD527-2547-46C3-8B84-395D56630496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3DD527-2547-46C3-8B84-395D56630496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3DD527-2547-46C3-8B84-395D56630496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3DD527-2547-46C3-8B84-395D56630496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42D46A3-3C21-4A7C-BF7B-188A874EFD24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42D46A3-3C21-4A7C-BF7B-188A874EFD24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42D46A3-3C21-4A7C-BF7B-188A874EFD24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42D46A3-3C21-4A7C-BF7B-188A874EFD24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA6F554-5680-4CE6-BFAF-27C8DCD2B78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA6F554-5680-4CE6-BFAF-27C8DCD2B78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA6F554-5680-4CE6-BFAF-27C8DCD2B78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA6F554-5680-4CE6-BFAF-27C8DCD2B78E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD43991-E252-4054-952E-241952E0F503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD43991-E252-4054-952E-241952E0F503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD43991-E252-4054-952E-241952E0F503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD43991-E252-4054-952E-241952E0F503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B13BDAD-F101-43B7-8484-EA7F36706E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B13BDAD-F101-43B7-8484-EA7F36706E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B13BDAD-F101-43B7-8484-EA7F36706E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B13BDAD-F101-43B7-8484-EA7F36706E00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DB2C228-DF42-4B00-B516-11E8B9500D6F}
+	EndGlobalSection
+EndGlobal

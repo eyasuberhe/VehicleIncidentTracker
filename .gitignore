@@ -3,3 +3,14 @@
 ################################################################################
 
 /.vs/VehicleIncidentTracker
+/.vscode
+/LICENSE
+/src/VehicleIncidentTracker.Core/bin/Debug/netstandard2.1
+/src/VehicleIncidentTracker.Core/obj
+/src/VehicleIncidentTracker.Infrastructure/bin/Debug/netcoreapp3.1
+/src/VehicleIncidentTracker.SharedKernel/bin/Debug/netstandard2.0
+/src/VehicleIncidentTracker.SharedKernel/obj
+/tests/VehicleIncidentTracker.IntegrationTests/bin/Debug/netcoreapp3.1
+/tests/VehicleIncidentTracker.IntegrationTests/obj
+/tests/VehicleIncidentTracker.UnitTests/bin/Debug/netcoreapp3.1
+/tests/VehicleIncidentTracker.UnitTests/obj

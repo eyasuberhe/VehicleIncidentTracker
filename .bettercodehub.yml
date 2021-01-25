@@ -1,0 +1,2 @@
+exclude:
+- .*/src\VehicleIncidentTracker.Web\wwwroot\lib\**\*
