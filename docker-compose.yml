@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  vehicleincidenttracker.web:
+    image: ${DOCKER_REGISTRY-}vehicleincidenttrackerweb
+    build:
+      context: .
+      dockerfile: src/VehicleIncidentTracker.Web/Dockerfile

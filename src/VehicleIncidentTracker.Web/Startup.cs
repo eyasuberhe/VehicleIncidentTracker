@@ -45,12 +45,6 @@ namespace VehicleIncidentTracker.Web
                 s.UseInMemoryDatabase("vehicleincidenttracker"));
 
             services.AddControllers();
-
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Vehicle Incident Tracker API", Version = "v1" });
-                c.EnableAnnotations();
-            });
         }
 
 
@@ -90,17 +84,6 @@ namespace VehicleIncidentTracker.Web
                     spa.UseReactDevelopmentServer(npmScript: "start");
                 }
             });
-
-            // Enable middleware to serve generated Swagger as a JSON endpoint.
-            app.UseSwagger();
-
-            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), specifying the Swagger JSON endpoint.
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Vehicle Incident Tracker API"));
-
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapDefaultControllerRoute();
-            //});
         }
     }
 }

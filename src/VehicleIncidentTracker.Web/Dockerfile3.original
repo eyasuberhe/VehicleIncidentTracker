@@ -8,13 +8,15 @@ RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash -
 RUN apt-get install -y nodejs
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
+RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash -
+RUN apt-get install -y nodejs
 WORKDIR /src
-COPY ["src/VehicleIncidentTracker.Web/VehicleIncidentTracker.Web.csproj", "src/VehicleIncidentTracker.Web/"]
-COPY ["src/VehicleIncidentTracker.Core/VehicleIncidentTracker.Core.csproj", "src/VehicleIncidentTracker.Core/"]
-COPY ["src/VehicleIncidentTracker.Infrastructure/VehicleIncidentTracker.Infrastructure.csproj", "src/VehicleIncidentTracker.Infrastructure/"]
-RUN dotnet restore "src/VehicleIncidentTracker.Web/VehicleIncidentTracker.Web.csproj"
+COPY ["VehicleIncidentTracker.Web/VehicleIncidentTracker.Web.csproj", "VehicleIncidentTracker.Web/"]
+COPY ["VehicleIncidentTracker.Core/VehicleIncidentTracker.Core.csproj", "VehicleIncidentTracker.Core/"]
+COPY ["VehicleIncidentTracker.Infrastructure/VehicleIncidentTracker.Infrastructure.csproj", "VehicleIncidentTracker.Infrastructure/"]
+RUN dotnet restore "VehicleIncidentTracker.Web/VehicleIncidentTracker.Web.csproj"
 COPY . .
-WORKDIR "/src/src/VehicleIncidentTracker.Web"
+WORKDIR "/src/."
 RUN dotnet build "VehicleIncidentTracker.Web.csproj" -c Release -o /app/build
 
 FROM build AS publish

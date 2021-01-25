@@ -19,3 +19,5 @@
 /src/VehicleIncidentTracker.Web/obj
 /src/bin/Debug/netcoreapp3.1
 /src/ClientApp/package-lock.json
+/obj
+/bin/Debug
