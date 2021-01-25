@@ -14,3 +14,6 @@
 /tests/VehicleIncidentTracker.IntegrationTests/obj
 /tests/VehicleIncidentTracker.UnitTests/bin/Debug/netcoreapp3.1
 /tests/VehicleIncidentTracker.UnitTests/obj
+/src/VehicleIncidentTracker.Web/bin/Debug/netcoreapp3.1/runtimes
+/src/VehicleIncidentTracker.Web/bin/Debug/netcoreapp3.1
+/src/VehicleIncidentTracker.Web/obj

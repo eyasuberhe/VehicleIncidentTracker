@@ -5637,14 +5637,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\berhe\\source\\repos\\VehicleIncidentTracker\\src\\VehicleIncidentTracker.Infrastructure\\VehicleIncidentTracker.Infrastructure.csproj",
+      "projectUniqueName": "C:\\WorkSpaces\\VehicleIncidentTracker\\src\\VehicleIncidentTracker.Infrastructure\\VehicleIncidentTracker.Infrastructure.csproj",
       "projectName": "VehicleIncidentTracker.Infrastructure",
-      "projectPath": "C:\\Users\\berhe\\source\\repos\\VehicleIncidentTracker\\src\\VehicleIncidentTracker.Infrastructure\\VehicleIncidentTracker.Infrastructure.csproj",
+      "projectPath": "C:\\WorkSpaces\\VehicleIncidentTracker\\src\\VehicleIncidentTracker.Infrastructure\\VehicleIncidentTracker.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\berhe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\berhe\\source\\repos\\VehicleIncidentTracker\\src\\VehicleIncidentTracker.Infrastructure\\obj\\",
+      "outputPath": "C:\\WorkSpaces\\VehicleIncidentTracker\\src\\VehicleIncidentTracker.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\berhe\\source\\repos\\VehicleIncidentTracker\\NuGet.Config",
+        "C:\\WorkSpaces\\VehicleIncidentTracker\\NuGet.Config",
         "C:\\Users\\berhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5658,8 +5658,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\berhe\\source\\repos\\VehicleIncidentTracker\\src\\VehicleIncidentTracker.Core\\VehicleIncidentTracker.Core.csproj": {
-              "projectPath": "C:\\Users\\berhe\\source\\repos\\VehicleIncidentTracker\\src\\VehicleIncidentTracker.Core\\VehicleIncidentTracker.Core.csproj"
+            "C:\\WorkSpaces\\VehicleIncidentTracker\\src\\VehicleIncidentTracker.Core\\VehicleIncidentTracker.Core.csproj": {
+              "projectPath": "C:\\WorkSpaces\\VehicleIncidentTracker\\src\\VehicleIncidentTracker.Core\\VehicleIncidentTracker.Core.csproj"
             }
           }
         }
